@@ -1,0 +1,58 @@
+// @import './sidebar.less';
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-style: normal;
+}
+.mr10{
+    margin-right:10px;
+}
+.mb10{
+    margin-bottom:10px;
+}
+.formSearch{
+    text-align: left;
+}
+.tableStyle{
+    padding:30px;
+    background:#fff;
+    border-radius:5px;
+    height:100%;
+}
+// 表格公共样式处理
+.formTable{
+    margin-top:20px;
+    height:calc(100% - 70px);
+    .el-table {
+        height: calc(100% - 50px);
+        /deep/.el-table__body-wrapper{
+            height:100%;
+            overflow: auto;
+        }
+        th{
+            background-color: #f5f7fa!important;
+        }
+    }
+    .el-pagination{
+        text-align: right;
+    }
+}
+// 公共颜色
+.brandBaseColor{
+    color:#409EFF !important;
+}
+.successBaseColor{
+    color:#67C23A !important;
+}
+.warningBaseColor{
+    color:#E6A23C !important;
+}
+.dangerBaseColor{
+    color:#F56C6C !important;
+}
+.infoBaseColor{
+    color:#909399 !important;
+}
